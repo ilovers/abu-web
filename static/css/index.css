@@ -1,0 +1,136 @@
+@media (min-width: 768px){ 
+	#show>div {
+		padding-bottom: 60px;
+	}
+	.buy-promise {
+		text-align: left;
+	}
+	#buy-info {
+		margin-top: -40px;
+	}
+	#video-wrap {
+		background-image:url('../img/video-run.png');
+		background-repeat:no-repeat;
+		background-position:center;
+		/*背景图片平铺
+		-webkit-background-size: cover;
+    	-moz-background-size: cover;
+    	-o-background-size: cover;
+   		background-size: cover;
+		*/
+	}
+	#smart-video {
+		opacity: 0;
+	}	
+}
+
+@media (max-width: 768px){ 
+	#show>div {
+		padding-bottom: 40px;
+	}
+}
+
+#show {
+	margin-top: 16px;
+}
+
+.btn-more {
+	text-align: center;
+	margin: 30px 0px 20px;
+}
+
+.btn-more .btn {
+	background-color: #f0f0f0;
+}
+
+.btn-more .btn:hover{
+	background-color: #f34868;
+	border: 1px solid #f34868;
+}
+
+#introduce {
+	text-align: center;
+}
+/*
+#introduce h1{
+	margin:30px 0px 20px;
+	font-size: 24px;
+	color: #292929;
+}
+
+#introduce p {
+	font-size: 14px;
+	color: #969696;
+	margin: 0 0 5px;
+}
+*/
+
+#features {
+	text-align: center;
+	margin-top: 20px;
+	border: 1px solid #cdcdcd;
+}
+
+.feature-icon {
+	margin: 20px 0px;
+}
+
+
+#buy-info{
+	text-align: center;
+	color: #888888;
+	margin-bottom: 16px;
+	padding: 30px 0px 40px;
+	z-index: 100;
+	background-color: #ffffff;
+}
+
+.buy-promise h1 {
+	font-size: 22px;
+	text-align: center;
+}
+
+.buy-promise p {
+	font-size: 16px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+
+#link {
+	margin-top: 16px;
+}
+
+#link > div {
+	padding-bottom: 0px;
+}
+
+#link-wrap img{
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+#smart-video {
+	display: block;
+	width: 100%;
+	margin: 0px auto;
+}
+
+.pro-img-wrap {
+	padding: 0;
+}
+
+.pro-img-wrap img {
+	display: block;
+	width: 100%;
+	margin: 20px auto 0px;
+}
+
+.pro-img-wrap.left {
+	padding-right: 5px;
+}
+
+.pro-img-wrap.right {
+	padding-left: 5px;
+}

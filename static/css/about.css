@@ -1,0 +1,58 @@
+@media (min-width: 768px){ 
+	#company-info {
+		margin-top: 90px;
+	}
+	.info-wrap {
+		margin-left: 40px;
+	}
+}
+
+@media (max-width: 768px){ 
+	#company-info {
+		margin-top: 10px;
+	}
+	#company-info {
+		padding-left: 15px;
+	}
+}
+
+#introduction {
+	margin-top: 16px;
+}
+
+#introduction>div {
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+#company {
+	margin:16px 0px;
+}
+
+#company>div {
+	text-align: center;
+	padding: 20px 0px;
+}
+
+#company-info {
+	text-align: left;
+}
+
+#company img {
+	margin: 0px auto;
+}
+
+#company-info p{
+	padding: 2px 0px;
+	font-size: 18px;
+	color: #4c4c4c;
+	margin-bottom: 5px;
+}
+
+.indent-info {
+	text-indent: 90px;
+}
+
+.word-block p {
+    margin: 0px;
+}

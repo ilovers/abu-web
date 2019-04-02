@@ -1,0 +1,279 @@
+@media (min-width: 768px){ 
+	#navbar {
+	    float: right;
+	}
+	.top_content {
+    	min-height: 700px;
+	}
+	.download-wrap {
+	  text-align: center;
+	  margin-top: 70px;
+	}
+	.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+	  color: #2c3033;
+	  background-color: #fff;
+	  border-bottom: 1px solid #f34868;
+	}
+
+	.navbar-inverse .navbar-nav > li > a {
+	  color: #2c3033;
+	}
+
+	.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+	  color: #2c3033;
+	}
+	
+	.navbar-inverse{
+	  background-color: #fff;
+	  border-color: #fafafa;
+	}
+	
+	.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	  border-color: #fafafa;
+	}
+}
+@media (max-width: 768px){ 
+	.link-wrap {
+		display: none;
+	}
+	.logo-wrap {
+		display: none;
+	}
+	.download-wrap {
+	  text-align: center;
+	  margin-top: 50px;
+	}
+	/* Turn OFF Animate.css on Mobile Devices */
+	.animated {
+    /*CSS transitions*/
+    -o-transition-property: none !important;
+    -moz-transition-property: none !important;
+    -ms-transition-property: none !important;
+    -webkit-transition-property: none !important;
+    transition-property: none !important;
+    /*CSS transforms*/
+    -o-transform: none !important;
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+    /*CSS animations*/
+    -webkit-animation: none !important;
+    -moz-animation: none !important;
+    -o-animation: none !important;
+    -ms-animation: none !important;
+    animation: none !important;
+  }
+}
+
+
+
+body {
+    font-family: "Microsoft Yahei", "微软雅黑";
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+#brand{
+	width: 100px;
+	height: 30px;
+	margin-top: 10px;
+	background-image: url("../img/logo.png");
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+
+.nav > li > a{
+	padding: 15px 20px;
+}
+
+
+.common-bg {
+	background-color: #f0f0f0;
+}
+
+.word-block h1 {
+	margin:30px 0px 20px;
+	font-size: 24px;
+	color: #292929;
+}
+
+.word-block p {
+	font-size: 14px;
+	color: #969696;
+	margin: 0 0 5px;
+}
+
+/*页脚-begin*/
+#bottom {
+	background-color: #373634;
+}
+
+.copyright{
+	font-size: 10px;
+	color: #fff;
+	text-align: center;
+	margin: 25px 0px 16px;
+}
+
+.logo-wrap {
+	text-align: center;
+	margin-top: 90px;
+}
+
+.link-wrap {
+	margin-top: 30px;
+}
+
+.nav > li >.bottom-link {
+	font-size: 14px;
+	color: #f34868;
+	padding: 6px 20px;
+}
+
+.nav > li >.bottom-link:hover {
+	background-color: #373634;
+}
+
+.indent {
+	text-indent: 36px;
+}
+
+.bottom-service {
+	width: 153px;
+	margin: 0px auto;
+}
+
+.bottom-service > h3 {
+	text-align: center;
+	font-size: 14px;
+	color: #a5dfe7;
+	padding: 6px 0px;
+	margin-top: 30px;
+}
+
+.bottom-service p {
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+}
+
+.bottom-contact {
+	width: 180px;
+	margin: 0px auto;
+}
+
+.bottom-contact > h3 {
+	text-indent: 36px;
+	font-size: 14px;
+	color: #f34868;
+	padding: 6px 0px;
+	margin-top: 30px;
+}
+
+.bottom-contact p {
+	font-size: 12px;
+	color: #ffffff;
+	margin-bottom: 5px;
+}
+
+.download-wrap > p {
+	font-size: 12px;
+	color: #ffffff;
+	padding: 10px 0px;
+}
+
+/*页脚-end*/
+
+/*首页，产品详情，软件中心共用-begin*/
+
+#top{
+	margin-top: 50px;
+}
+
+.trademark {
+	margin-top: 50px;
+}
+
+.trademark p{
+	text-align: center;
+	color: #4c4c4c;
+}
+
+.short-title {
+	font-size: 24px;
+}
+
+.name {
+	font-size: 30px;
+}
+
+.slogan{
+	font-size: 14px;
+}
+
+.btn-buy {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.btn{
+	font-size: 18px;
+	
+	padding: 4px 22px;
+	/* color: #fffdfd;
+	background-color: #22cacd;
+	border: 1px solid #22cacd; */
+
+	color: #4c4c4c;
+	background-color: #ffffff;
+	border: 1px solid #f34868;
+
+}
+.btn:hover {
+	background-color: #f34868;
+	border: 1px solid #f34868;
+}
+
+#banner>div{
+	background-color: #453e42;
+	margin-top: 40px;
+}
+
+.banner-img-wrap img {
+	margin: 0px auto;
+}
+/*首页，产品详情，软件中心共用-end*/
+
+
+/*常见问题、关于我们、路由器配置页面共用-begin*/
+.top-wrap {
+	margin-top: 80px;
+	background-color: #373634;
+}
+.top-title {
+	text-align: center;
+}
+
+.top-title h1 {
+	margin: 0;
+	font-size: 24px;
+	color: #f34868;
+	padding: 25px 0px;
+}
+
+.carousel-indicators li{
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+}
+.carousel-indicators .active{
+	width: 10px;
+	height: 10px;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img {
+    margin: 0px auto;
+}
+/*常见问题、关于我们、路由器配置页面共用-end*/

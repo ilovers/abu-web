@@ -1,0 +1,47 @@
+@media (min-width: 768px){ 
+	#how-to-book {
+		margin-top: 60px;
+	}
+	#re-buy {
+		margin-top: 40px;
+	}
+	#confirm{
+		margin-top: 40px;
+	}
+	#color{
+		margin-top: 70px;
+	}
+	#create{
+		margin-top: 80px;
+	}
+	#send{
+		margin-top: 70px;
+	}
+}
+#content {
+	margin-bottom: 20px;
+}
+
+.content-row {
+	margin-top: 20px;
+}
+
+.img-wrap img {
+	margin: 0px auto;
+}
+
+.pink {
+	color: rgb(254,128,155);
+}
+
+.red {
+	color: #f34868;
+}
+
+#content h1 {
+	margin-bottom: 20px;
+}
+
+.word-more p{
+	margin-bottom: 3px;
+}
