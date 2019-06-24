@@ -35,8 +35,9 @@
 	         <div id="navbar" class="navbar-collapse collapse">
                <ul class="nav navbar-nav">
 			     <li @if ($view=="index") class="active" @endif><a href="/">首页</a></li>
+				 <li @if ($view=="frame") class="active" @endif><a href="/?v=frame">阿佈故事框</a></li>
+				 <li @if ($view=="card") class="active" @endif><a href="/?v=card">阿佈故事卡</a></li>
 				 <li @if ($view=="book") class="active" @endif><a href="/?v=book">阿佈故事书</a></li>
-	             <li @if ($view=="card") class="active" @endif><a href="/?v=card">阿佈故事卡</a></li>
 				 <li @if ($view=="help") class="active" @endif><a href="/?v=help">常见问题</a></li>
 				 <li @if ($view=="activity") class="active" @endif><a href="/?v=activity">活动中心</a></li>
 				 <li @if ($view=="about") class="active" @endif><a href="/?v=about">关于我们</a></li>
@@ -55,10 +56,11 @@
 			  <div class="row link-wrap">
 				<div class="col-md-12 wow fadeInDown">
 				  <ul class="nav nav-pills">
+					  <li role="presentation"><a class="bottom-link" href="/?v=frame">阿佈故事框</a></li>
+				      <li role="presentation"><a class="bottom-link" href="/?v=card">阿佈故事卡</a></li>
 					  <li role="presentation"><a class="bottom-link" href="/?v=book">阿佈故事书</a></li>
-				    <li role="presentation"><a class="bottom-link" href="/?v=card">阿佈故事卡</a></li>
 					  <li role="presentation"><a class="bottom-link" href="/?v=help">常见问题</a></li>
-						<li role="presentation"><a class="bottom-link" href="/?v=activity">活动中心</a></li>
+					  <li role="presentation"><a class="bottom-link" href="/?v=activity">活动中心</a></li>
 					  <li role="presentation"><a class="bottom-link" href="/?v=about">关于我们</a></li>
 				  </ul>
 				</div>
