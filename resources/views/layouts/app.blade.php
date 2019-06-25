@@ -33,7 +33,7 @@
 	           </a>
 	         </div>
 	         <div id="navbar" class="navbar-collapse collapse">
-               <ul class="nav navbar-nav">
+               <ul class="top-nav nav navbar-nav">
 			     <li @if ($view=="index") class="active" @endif><a href="/">首页</a></li>
 				 <li @if ($view=="frame") class="active" @endif><a href="/?v=frame">阿佈故事框</a></li>
 				 <li @if ($view=="card") class="active" @endif><a href="/?v=card">阿佈故事卡</a></li>
@@ -55,10 +55,14 @@
 			<div class="col-md-6">
 			  <div class="row link-wrap">
 				<div class="col-md-12 wow fadeInDown">
-				  <ul class="nav nav-pills">
+				  <ul class="bottom-nav nav nav-pills">
 					  <li role="presentation"><a class="bottom-link" href="/?v=frame">阿佈故事框</a></li>
 				      <li role="presentation"><a class="bottom-link" href="/?v=card">阿佈故事卡</a></li>
 					  <li role="presentation"><a class="bottom-link" href="/?v=book">阿佈故事书</a></li>
+				  </ul>
+				</div>
+				<div class="col-md-12 wow fadeInDown">
+				  <ul class="bottom-nav nav nav-pills">
 					  <li role="presentation"><a class="bottom-link" href="/?v=help">常见问题</a></li>
 					  <li role="presentation"><a class="bottom-link" href="/?v=activity">活动中心</a></li>
 					  <li role="presentation"><a class="bottom-link" href="/?v=about">关于我们</a></li>
@@ -76,12 +80,12 @@
 			</div>
 			<div class="col-md-6">
 				<div class="col-md-3 col-xs-6 download-wrap wow fadeInUp">
-				  <div><img src="/static/img/wx-service.png"/></div>
-				  <p>微信服务号</p>
+				  <div><img src="/static/img/wx-room.png"/></div>
+				  <p>阿佈故事工作室</p>
 				</div>
 				<div class="col-md-3 col-xs-6 download-wrap wow fadeInUp">
 				  <div><img src="/static/img/wx-account.png"/></div>
-				  <p>关注公众号</p>
+				  <p>阿佈故事公众号</p>
 				</div>
 				<div class="col-md-6 center">
 				  <div class="bottom-contact wow slideInRight">
